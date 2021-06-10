@@ -39,16 +39,19 @@ function Filters() {
           value={search}
           onChange={handleChange}
         />
-        <button className="bg-gray-200" onClick={handleSearch}>
+        <button
+          className="bg-gray-200 bg-blue-200 rounded-md p-1 hover:bg-blue-400"
+          onClick={handleSearch}
+        >
           Search
         </button>
       </div>
 
       <div className="flex gap-2">
-        <label htmlFor="">Data</label>
+        <label htmlFor="date">Date</label>
         <select
-          name=""
-          id="data"
+          name="date"
+          id="date"
           className="border border-black"
           onChange={handleFilterDate}
         >
@@ -59,9 +62,9 @@ function Filters() {
       </div>
 
       <div className="flex gap-2">
-        <label htmlFor="">Status</label>
+        <label htmlFor="status">Status</label>
         <select
-          name=""
+          name="status"
           id="status"
           className="border border-black"
           onChange={handleFilterStatus}

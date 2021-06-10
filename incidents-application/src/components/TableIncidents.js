@@ -92,10 +92,16 @@ function RowIncident({ row }) {
       <td className="border border-black">{row.status}</td>
       <td className="border border-black">
         <div className="flex justify-around">
-          <button className="bg-blue-400 rounded-md p-1" onClick={handleEdit}>
+          <button
+            className="bg-blue-400 rounded-md p-1 hover:bg-blue-300"
+            onClick={handleEdit}
+          >
             Edit
           </button>
-          <button className="bg-red-400 rounded-md p-1" onClick={handleDelete}>
+          <button
+            className="bg-red-400 rounded-md p-1 hover:bg-red-300"
+            onClick={handleDelete}
+          >
             Delete
           </button>
         </div>

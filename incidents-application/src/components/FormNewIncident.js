@@ -34,7 +34,16 @@ function FormNewIncident() {
 
   return (
     <form className="border border-black w-full sm:w-8/12 lg:w-4/12 mx-auto my-4 p-4 gap-2 flex flex-col">
-      <h2>New Incident</h2>
+      <h2 className="bg-blue-200 p-2 text-center">New Incident</h2>
+
+      <label htmlFor="">Date</label>
+      <input
+        name="date"
+        value={newIncident.date}
+        type="date"
+        onChange={handleChange}
+        className="border border-black"
+      />
 
       <label htmlFor="">Description</label>
       <textarea
@@ -66,7 +75,7 @@ function FormNewIncident() {
       ></textarea>
 
       <button
-        className="bg-blue-300 rounded-md p-2 w-6/12 mx-auto"
+        className="bg-blue-300 rounded-md p-2 w-6/12 mx-auto hover:bg-blue-500"
         onClick={handleCreate}
       >
         Report Incident
