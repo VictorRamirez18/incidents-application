@@ -1,0 +1,69 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-09T23:57:48.702Z"}
+info: Connected to the database. {"timestamp":"2021-06-09T23:57:49.110Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T00:03:50.788Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T00:03:50.910Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T00:05:29.750Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T00:05:29.838Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T00:08:48.464Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T00:08:48.555Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T00:14:09.799Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T00:16:20.073Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T00:23:09.716Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T00:24:38.368Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T00:25:50.761Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T00:25:50.846Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T01:59:28.032Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T01:59:28.267Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T02:02:47.558Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T02:02:47.652Z"}
+error: 
+    status - 500 
+    message - TypeError: IncidentService.newUser is not a function
+    at _callee3$ (C:\Users\jairr\Documents\AplicaciónIncidencias\server\build\controllers\incident.controller.js:128:36)
+    at tryCatch (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newIncident (C:\Users\jairr\Documents\AplicaciónIncidencias\server\build\controllers\incident.controller.js:154:18) 
+    url - /api/v1/incidents 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2021-06-10T02:03:09.713Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T02:03:52.982Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T02:03:53.072Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T03:25:14.534Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T03:25:14.869Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T03:30:00.594Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T03:30:00.682Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T03:32:01.478Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T03:32:01.579Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T03:34:11.904Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T03:34:11.981Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T03:42:15.330Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T03:42:15.411Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T04:08:11.900Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T04:08:11.987Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T04:33:38.419Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T04:33:38.730Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee4$ (C:\Users\jairr\Documents\AplicaciónIncidencias\server\build\services\incident.service.js:131:47)
+    at tryCatch (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\jairr\Documents\AplicaciónIncidencias\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/incidents/10 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2021-06-10T04:33:50.761Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T04:34:51.176Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T04:34:51.261Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2021-06-10T04:55:11.850Z"}
+info: Connected to the database. {"timestamp":"2021-06-10T04:55:11.930Z"}
